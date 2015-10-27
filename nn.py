@@ -1,6 +1,8 @@
 import random
 from math import exp 
-random.seed(1234)
+random.seed(1234) # TODO: Figure out how much the seed impacts the
+# generated network and adjust this accordingly.
+# TODO: Move seed() to appropriate location as per above ^^
 print(random.random())
 class NN:
 	class __layer:
